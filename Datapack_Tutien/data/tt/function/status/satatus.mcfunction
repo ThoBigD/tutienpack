@@ -9,7 +9,7 @@ execute if entity @s[tag=luyenthe] run tellraw @s ["",{text:" ✦ Cảnh giới 
 execute unless score @s status_luyenthe matches 1.. run function tt:status/ruiro/0
 execute if score @s status_luyenthe matches 1..3 run tellraw @s [{"text":" ✦ Giai đoạn: ","color":"gray"},{"text":"Luyện Bì Phù (Da & Thịt)","color":"aqua"}]
 execute if score @s status_luyenthe matches 1..3 run function tt:status/ruiro/13
-tellraw @s {"text":"-----=Thuộc tính linh căng=-----","color":"dark_gray"}
+tellraw @s {"text":"-----=Thuộc tính linh căn=-----","color":"dark_gray"}
 execute if entity @s[tag=kim] run tellraw @s [{"text":" ✦ Thuộc Tính: ","color":"gray"},{"text":"Kim","color":"white"}]
 execute if entity @s[tag=moc] run tellraw @s [{"text":" ✦ Thuộc Tính: ","color":"gray"},{"text":"Mộc","color":"green"}]
 execute if entity @s[tag=thuy] run tellraw @s [{"text":" ✦ Thuộc Tính: ","color":"gray"},{"text":"Thủy","color":"blue"}]
