@@ -10,7 +10,7 @@ execute as @a[tag=MaTu] at @s run function matu:luyenthe/tick
 scoreboard players set @a[tag=!MaTu] MaTu_MaKhi 0
 
 ### Tick của mobs đặc biệt spawn trong ban đêm / Logic của mobs đặc biệt
-# function matu:mobs/monster/tick
+function matu:mobs/monster/tick
 function matu:mobs/monster/zombie/mobs/default
 
 ### Tick của HP Display

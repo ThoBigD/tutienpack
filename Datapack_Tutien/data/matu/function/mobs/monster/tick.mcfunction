@@ -1,2 +1,3 @@
-### Spawn ban đêm
-execute if predicate matu:mobs/monster/is_night run function matu:mobs/monster/zombie/spawn/tick
+
+execute as @e[type=zombie,tag=!matu_processed,tag=!zombie_luyenthe_t1] at @s run function matu:mobs/monster/zombie/process_new
+
