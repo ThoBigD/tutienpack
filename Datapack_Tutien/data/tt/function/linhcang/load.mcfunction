@@ -1,0 +1,5 @@
+scoreboard objectives add linhcang_random+ dummy
+scoreboard objectives add linhcang_random_nguy dummy
+scoreboard objectives add linhcang_random_bien dummy
+scoreboard objectives add linhcang_detect minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add linhcang_random dummy

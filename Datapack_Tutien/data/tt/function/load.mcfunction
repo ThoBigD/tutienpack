@@ -1,0 +1,9 @@
+function tt:luyenthe/load
+function tt:dialog/load
+function tt:skill/load
+function tt:mobs/load
+function tt:status/load
+function tt:tuoi/load
+function tt:thien/load
+function tt:linhcang/load
+function tt:congtrinh/load

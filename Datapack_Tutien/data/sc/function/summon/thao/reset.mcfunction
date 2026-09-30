@@ -1,0 +1,11 @@
+scoreboard players reset #value thao_nuocmam
+scoreboard players reset #value thao_nuoctuong
+scoreboard players reset #value thao_dauhao
+scoreboard players reset #value thao_matong
+scoreboard players reset #value thao_tieuxay
+scoreboard players reset #value thao_suadac
+scoreboard players reset #value thao_daudieu
+scoreboard players reset #value thao_sabam
+scoreboard players reset #value thao_toibam
+scoreboard players reset #value thao_hanhtimbam
+scoreboard players reset #value thao_thit

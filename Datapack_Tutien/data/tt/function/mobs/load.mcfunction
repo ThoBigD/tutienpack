@@ -1,0 +1,4 @@
+scoreboard objectives add zombie_random dummy
+scoreboard objectives add villager_random dummy
+scoreboard objectives add zombie_luyenthe_t1 dummy
+scoreboard objectives add zombie_luyenthe_t1_skill dummy

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "matu:tran_phap_t1_structure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 6,
+    "salt": 14383947
+  }
+}

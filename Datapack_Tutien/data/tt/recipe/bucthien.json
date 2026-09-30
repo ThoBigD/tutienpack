@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ccc",
+    "ccc",
+    "ccc"
+  ],
+  "key": {
+    "c": [
+      "minecraft:cobblestone"
+    ]
+  },
+  "result": {
+    "id": "minecraft:zombie_spawn_egg",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:armor_stand",
+        "Tags": [
+          "bucthien_1_new"
+        ]
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "bucthien_1"
+        ]
+      },
+      "minecraft:custom_name": "Bục Thiền"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+scoreboard objectives add matu_spawn_cd dummy
+scoreboard objectives add matu_spawn_roll dummy

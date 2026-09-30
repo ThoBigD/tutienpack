@@ -1,0 +1,1 @@
+$data modify storage matu_hp_display Mobs.ID_$(value) set from storage matu_hp_display MobName

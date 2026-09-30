@@ -1,0 +1,4 @@
+scoreboard players reset #thaonuoc_giavi_gung thaonuoc_giavi_gung
+execute on target run execute if items entity @s weapon.mainhand carrot[minecraft:custom_model_data={strings:['lat_gung']}] run scoreboard players set #thaonuoc_giavi_gung thaonuoc_giavi_gung 1
+execute on target run execute if items entity @s weapon.mainhand carrot[minecraft:custom_model_data={strings:['lat_gung']}] run clear @s minecraft:carrot[custom_name=[{"text":"Gừng Cắt lát","italic":false}],minecraft:custom_data={food:gung},minecraft:custom_model_data={strings:['lat_gung']}] 5
+execute if score #thaonuoc_giavi_gung thaonuoc_giavi_gung matches 1.. run scoreboard players operation @s thaonuoc_giavi_gung = #thaonuoc_giavi_gung thaonuoc_giavi_gung

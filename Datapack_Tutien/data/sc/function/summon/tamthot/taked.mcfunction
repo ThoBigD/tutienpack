@@ -1,0 +1,8 @@
+execute if score #cut_take tamthot_item matches 1 run give @s minecraft:carrot[custom_name=[{"text":"Dưa Leo","italic":false}],minecraft:custom_data={food:1b},minecraft:custom_model_data={strings:['dualeo']}] 1
+execute if score #cut_take tamthot_item matches 2 run give @s minecraft:carrot[custom_name=[{"text":"Cà Chua","italic":false}],minecraft:custom_data={food:1b},minecraft:custom_model_data={strings:['cachua']}] 1
+execute if score #cut_take tamthot_item matches 3 run give @s minecraft:carrot[custom_name=[{"text":"Cục Thịt ","italic":false}],minecraft:custom_data={food:1b},minecraft:custom_model_data={strings:['cucthit']}] 1
+execute if score #cut_take tamthot_item matches 4 run give @s minecraft:carrot[custom_name=[{"text":"Gừng ","italic":false}],minecraft:custom_data={food:1b},minecraft:custom_model_data={strings:['gung']}] 1
+execute if score #cut_take tamthot_item matches 5 run give @s minecraft:carrot[custom_name=[{"text":"Cục Thịt Khử Mùi ","italic":false}],minecraft:custom_data={food:1b},minecraft:custom_model_data={strings:['thit_khumui']}] 1
+execute if score #cut_take tamthot_item matches 6 run give @s minecraft:carrot[custom_name=[{"text":"Sả","italic":false}],minecraft:custom_data={food:1b},minecraft:custom_model_data={strings:['sa']}] 1
+execute if score #cut_take tamthot_item matches 7 run give @s minecraft:carrot[custom_name=[{"text":"Tỏi","italic":false}],minecraft:custom_data={food:1b},minecraft:custom_model_data={strings:['toi']}] 1
+execute if score #cut_take tamthot_item matches 8 run give @s minecraft:carrot[custom_name=[{"text":"Hành tím","italic":false}],minecraft:custom_data={food:1b},minecraft:custom_model_data={strings:['hanhtim']}] 1

@@ -1,0 +1,1 @@
+scoreboard players set @s MaTu_MaKhi 999999999

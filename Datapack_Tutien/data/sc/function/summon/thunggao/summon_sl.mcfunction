@@ -1,0 +1,23 @@
+execute if entity @s[tag=10] run summon item_display ~ ~0.5 ~ {Tags:["thunggao_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thunggao"]}}}}
+execute if entity @s[tag=9] run summon item_display ~ ~0.5 ~ {Tags:["thunggao_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thunggao_9"]}}}}
+execute if entity @s[tag=8] run summon item_display ~ ~0.5 ~ {Tags:["thunggao_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thunggao_8"]}}}}
+execute if entity @s[tag=7] run summon item_display ~ ~0.5 ~ {Tags:["thunggao_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thunggao_7"]}}}}
+execute if entity @s[tag=6] run summon item_display ~ ~0.5 ~ {Tags:["thunggao_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thunggao_6"]}}}}
+execute if entity @s[tag=5] run summon item_display ~ ~0.5 ~ {Tags:["thunggao_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thunggao_5"]}}}}
+execute if entity @s[tag=4] run summon item_display ~ ~0.5 ~ {Tags:["thunggao_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thunggao_4"]}}}}
+execute if entity @s[tag=3] run summon item_display ~ ~0.5 ~ {Tags:["thunggao_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thunggao_3"]}}}}
+execute if entity @s[tag=2] run summon item_display ~ ~0.5 ~ {Tags:["thunggao_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thunggao_2"]}}}}
+execute if entity @s[tag=1] run summon item_display ~ ~0.5 ~ {Tags:["thunggao_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thunggao_1"]}}}}
+execute if entity @s[tag=0] run summon item_display ~ ~0.5 ~ {Tags:["thunggao_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thunggao_0"]}}}}
+
+execute if entity @s[tag=10] run scoreboard players set @e[tag=new,type=interaction] thunggao_sl 10
+execute if entity @s[tag=9] run scoreboard players set @e[tag=new,type=interaction] thunggao_sl 9
+execute if entity @s[tag=8] run scoreboard players set @e[tag=new,type=interaction] thunggao_sl 8
+execute if entity @s[tag=7] run scoreboard players set @e[tag=new,type=interaction] thunggao_sl 7
+execute if entity @s[tag=6] run scoreboard players set @e[tag=new,type=interaction] thunggao_sl 6
+execute if entity @s[tag=5] run scoreboard players set @e[tag=new,type=interaction] thunggao_sl 5
+execute if entity @s[tag=4] run scoreboard players set @e[tag=new,type=interaction] thunggao_sl 4
+execute if entity @s[tag=3] run scoreboard players set @e[tag=new,type=interaction] thunggao_sl 3
+execute if entity @s[tag=2] run scoreboard players set @e[tag=new,type=interaction] thunggao_sl 2
+execute if entity @s[tag=1] run scoreboard players set @e[tag=new,type=interaction] thunggao_sl 1
+execute if entity @s[tag=0] run scoreboard players set @e[tag=new,type=interaction] thunggao_sl 0

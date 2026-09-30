@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "matu:system/right_click/default"
+  }
+}

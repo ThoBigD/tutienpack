@@ -1,0 +1,85 @@
+{
+  "type": "multi_action",
+  "title": {
+    "text": "KỸ NĂNG BẤT ĐỘNG MINH VƯƠNG",
+    "color": "gold",
+    "bold": true
+  },
+  "description": {
+    "text": "Rà chuột vào tên để xem mô tả:",
+    "color": "gray",
+    "italic": true
+  },
+  "actions": [
+    {
+      "id": "skill_1",
+      "label": {
+        "text": "Phản Chấn ",
+        "color": "yellow",
+        "bold": true
+      },
+      "tooltip": [
+        {"text": "Phản Chấn\n", "color": "yellow", "bold": true},
+        {"text": "Loại: ", "color": "gray"}, {"text": "Nội tại / Phòng thủ\n", "color": "white"},
+        {"text": "--------------------\n", "color": "dark_gray"},
+        {"text": "● ", "color": "gold"}, {"text": "Phản lại ", "color": "gray"}, {"text": "50% ", "color": "green"}, {"text": "sát thương nhận vào.\n", "color": "gray"},
+        {"text": "● ", "color": "gold"}, {"text": "Đẩy văng mũi tên và vật thể bay.\n", "color": "gray"},
+        {"text": "--------------------\n", "color": "dark_gray"},
+        {"text": "⌛ Hồi chiêu: ", "color": "aqua"}, {"text": "5 giây", "color": "white"}
+      ]
+    },
+    {
+      "id": "toggle_1",
+      "label": { "text": "[ ON/OFF ]", "color": "white" },
+      "action": { "type": "run_command", "command": "/trigger phanchan" }
+    },
+    {
+      "id": "skill_2",
+      "label": {
+        "text": "Bạt Thạch Kích ",
+        "color": "light_purple",
+        "bold": true
+      },
+      "tooltip": [
+        {"text": "Bạt Thạch Kích\n", "color": "light_purple", "bold": true},
+        {"text": "Loại: ", "color": "gray"}, {"text": "Tấn Công\n", "color": "white"},
+        {"text": "--------------------\n", "color": "dark_gray"},
+        {"text": "Nhấn Shift 1s để móc lên ", "color": "gray"}, {"text": "cục đất", "color": "yellow"}, {"text": ":\n", "color": "gray"},
+        {"text": "● ", "color": "gold"}, {"text": "Chuột phải để quăng ra ", "color": "gray"}, {"text": "Cục đất\n", "color": "yellow"},
+        {"text": "● ", "color": "gold"}, {"text": "Sát thương ", "color": "gray"}, {"text": "15", "color": "red"}, {"text": ".\n", "color": "gray"},
+        {"text": "--------------------\n", "color": "dark_gray"},
+        {"text": "⌛ Hồi chiêu: ", "color": "aqua"}, {"text": "0 s", "color": "white"}
+      ]
+    },
+    {
+      "id": "toggle_2",
+      "label": { "text": "[ ON/OFF ]", "color": "white" },
+      "action": { "type": "run_command", "command": "/trigger batthachkich" }
+    },
+    {
+      "id": "skill_3",
+      "label": {
+        "text": "Sơn Nhạc Trọng Kích ",
+        "color": "red",
+        "bold": true
+      },
+      "tooltip": [
+        {"text": "Sơn Nhạc Trọng Kích\n", "color": "red", "bold": true},
+        {"text": "Loại: ", "color": "gray"}, {"text": "Điều kiện kích hoạt\n", "color": "white"},
+        {"text": "--------------------\n", "color": "dark_gray"},
+        {"text": "Khi đứng cao trên 10block nhảy xuống \n", "color": "gray"},
+        {"text": "● ", "color": "gold"}, {"text": "Tạo ra 1 vụ nổ to , ", "color": "gray"}, {"text": "Sát thương ", "color": "dark_red"}, {"text": "30\n", "color": "gray"}
+      ]
+    },
+    {
+      "id": "toggle_3",
+      "label": { "text": "[ ON/OFF ]", "color": "white" },
+      "action": { "type": "run_command", "command": "/trigger sonnhactrongkich_dialog" }
+    },
+    {
+      "id": "back_btn",
+      "label": { "text": "⬅ [ TRỞ VỀ ]", "color": "gray" },
+      "action": { "type": "run_command", "command": "trigger luyenthe" }
+    }
+  ]
+}

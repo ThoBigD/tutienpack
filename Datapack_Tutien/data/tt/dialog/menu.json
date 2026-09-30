@@ -1,0 +1,62 @@
+{
+  "type": "multi_action",
+  "title": {
+    "text": "BẢNG KỸ NĂNG TU TIÊN",
+    "color": "gold",
+    "bold": true
+  },
+  "description": {
+    "text": "Chọn cảnh giới (Click để thực hiện ngay):",
+    "color": "gray"
+  },
+  "actions": [
+    {
+      "id": "luyen_the",
+      "label": { "text": "❶ Luyện Thể", "color": "white" },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger luyenthe"
+      }
+    },
+    {
+      "id": "luyen_khi",
+      "label": { "text": "❷ Luyện Khí", "color": "green" },
+      "action": {
+        "type": "run_command",
+        "command": "/tag @s add tt_luyenkhi"
+      }
+    },
+    {
+      "id": "truc_co",
+      "label": { "text": "❸ Trúc Cơ", "color": "aqua" },
+      "action": {
+        "type": "run_command",
+        "command": "/tag @s add tt_trucco"
+      }
+    },
+    {
+      "id": "kim_dan",
+      "label": { "text": "❹ Kim Đan", "color": "yellow" },
+      "action": {
+        "type": "run_command",
+        "command": "/tag @s add tt_kimdan"
+      }
+    },
+    {
+      "id": "nguyen_anh",
+      "label": { "text": "❺ Nguyên Anh", "color": "light_purple" },
+      "action": {
+        "type": "run_command",
+        "command": "/tag @s add tt_nguyenanh"
+      }
+    },
+    {
+      "id": "hoa_than",
+      "label": { "text": "❻ Hóa Thần", "color": "red", "bold": true },
+      "action": {
+        "type": "run_command",
+        "command": "/tag @s add tt_hoathan"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+scoreboard players set @a MaTu_RightClick 0

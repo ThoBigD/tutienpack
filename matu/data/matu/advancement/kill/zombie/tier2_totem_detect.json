@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "totem_used": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{tier2_death:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "matu:mobs/monster/zombie/mobs/tier2/skills/die"
+  }
+}

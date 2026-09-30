@@ -1,0 +1,2 @@
+execute if score @s bepnuong_item matches 1 run execute on target run give @s minecraft:carrot[custom_name=[{"text":"Thịt Đã Ướp ","italic":false}],minecraft:custom_model_data={strings:['thit_dauop_ngon']}] 1
+function sc:summon/bepnuong/display2

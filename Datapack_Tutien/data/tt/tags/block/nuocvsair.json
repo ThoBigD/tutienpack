@@ -1,0 +1,35 @@
+{
+  "values": [
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:void_air",
+    "minecraft:water",
+    "minecraft:short_grass",
+    "minecraft:short_dry_grass",
+    "minecraft:dandelion",
+    "minecraft:poppy",
+    "minecraft:blue_orchid",
+    "minecraft:allium",
+    "minecraft:red_tulip",
+    "minecraft:orange_tulip",
+    "minecraft:white_tulip",
+    "minecraft:pink_tulip",
+    "minecraft:oxeye_daisy",
+    "minecraft:cornflower",
+    "minecraft:lily_of_the_valley",
+    "minecraft:allium",
+    "minecraft:open_eyeblossom",
+    "minecraft:closed_eyeblossom",
+    "minecraft:wither_rose",
+    "minecraft:pink_petals",
+    "minecraft:wildflowers",
+    "minecraft:leaf_litter",
+    "minecraft:firefly_bush",
+    "minecraft:bamboo",
+    "minecraft:sugar_cane",
+    "minecraft:rose_bush",
+    "minecraft:peony",
+    "minecraft:lilac"
+    
+  ]
+}

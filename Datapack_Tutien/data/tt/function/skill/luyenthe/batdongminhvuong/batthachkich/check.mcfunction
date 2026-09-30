@@ -1,0 +1,1 @@
+execute if items entity @s weapon.offhand paper[minecraft:custom_data={btk:throw}] run function tt:skill/luyenthe/batdongminhvuong/batthachkich/throw

@@ -1,0 +1,2 @@
+execute unless entity @s[scores={thao_nuocmam=1,thao_nuoctuong=1,thao_dauhao=1,thao_matong=1,thao_tieuxay=1,thao_suadac=1,thao_daudieu=1,thao_sabam=1,thao_toibam=1,thao_hanhtimbam=1}] run function sc:summon/thao/break
+execute if entity @s[scores={thao_nuocmam=1,thao_nuoctuong=1,thao_dauhao=1,thao_matong=1,thao_tieuxay=1,thao_suadac=1,thao_daudieu=1,thao_sabam=1,thao_toibam=1,thao_hanhtimbam=1}] run function sc:summon/thao/break2

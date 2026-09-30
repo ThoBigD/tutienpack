@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "mathi": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:zombie",
+            "nbt": "{Tags:[\"tier2\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "matu:mobs/monster/zombie/mobs/tier2/skills/on_hit"
+  }
+}

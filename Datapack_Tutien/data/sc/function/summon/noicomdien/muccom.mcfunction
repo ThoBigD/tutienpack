@@ -1,0 +1,5 @@
+execute on target run execute if items entity @s weapon.offhand minecraft:stone_shovel run execute if items entity @s weapon.mainhand coal[minecraft:custom_data={dia:1b},minecraft:custom_model_data={strings:['dia']}] run scoreboard players set #noicomdien_dia_pass noicomdien_codo 1
+execute on target run execute if items entity @s weapon.offhand minecraft:stone_shovel run execute if items entity @s weapon.mainhand coal[minecraft:custom_data={dia:1b},minecraft:custom_model_data={strings:['dia']}] run function sc:summon/noicomdien/replace_item
+execute if score #noicomdien_dia_pass noicomdien_codo matches 1 run scoreboard players remove @s noicomdien_sl 1
+execute if score @s noicomdien_sl matches ..0 run function sc:summon/noicomdien/reset 
+scoreboard players reset #noicomdien_dia_pass noicomdien_codo

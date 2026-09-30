@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:paper"
+    },
+    "title": {
+      "text": "Mở Khóa Công Thức: Cửu U Hoán Cốt Đan",
+      "color": "gold",
+      "bold": true
+    },
+    "description": {
+      "text": "Nghịch thiên cải mệnh, hoán đổi ma tủy!",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "matu:item/howtouse/guide/dan_duoc/hoancotdan"
+  }
+}

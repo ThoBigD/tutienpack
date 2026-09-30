@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "vua_craft_xong": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "matu:dan_duoc/mahuyetdan"
+      }
+    }
+  },
+  "rewards": {
+    "function": "matu:item/base/dan_duoc/mahuyetdan"
+  }
+}

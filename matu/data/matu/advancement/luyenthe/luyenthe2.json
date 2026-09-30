@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:paper",
+      "components": {
+        "minecraft:item_model": "matu:dich_can_dan"
+      }
+    },
+    "title": {
+      "text": "Dịch Cân Hoán Cốt",
+      "color": "gold",
+      "bold": true
+    },
+    "description": {
+      "text": "Tẩy tủy phạt mao! Cải tạo gân cốt, thoát thai hoán cốt thành công đột phá lên Luyện Thể Tầng 2.",
+      "color": "yellow"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dot_pha_thanh_cong": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "type": "multi_action",
+  "title": {
+    "text": "CHỌN CÔNG PHÁP LUYỆN THỂ",
+    "color": "white",
+    "bold": true
+  },
+  "description": {
+    "text": "Mỗi công pháp sẽ tăng chỉ số khác nhau:",
+    "color": "gray"
+  },
+  "actions": [
+    {
+      "id": "bat_dong_minh_vuong",
+      "label": {
+        "text": "Bất Động Minh Vương",
+        "color": "gold"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger batdongminhvuong",
+        "require_confirmation": false
+      }
+    },
+    {
+      "id": "phach_son_quyet",
+      "label": {
+        "text": "Phách Sơn Quyết",
+        "color": "red"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger luyenthe set 2",
+        "require_confirmation": false
+      }
+    },
+    {
+      "id": "phong_anh_hanh",
+      "label": {
+        "text": "Phong Ảnh Hành",
+        "color": "aqua"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger luyenthe set 3",
+        "require_confirmation": false
+      }
+    },
+    {
+      "id": "back_to_menu",
+      "label": {
+        "text": "⬅ TRỞ VỀ",
+        "color": "gray"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger menu",
+        "require_confirmation": false
+      }
+    }
+  ]
+}

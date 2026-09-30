@@ -1,0 +1,2 @@
+scoreboard players operation #bepnuong_display_nuongthit bepnuong.global = @s bepnuong.global
+execute at @s as @e[type=minecraft:item_display,tag=bepnuong_display] run execute if score @s bepnuong.global = #bepnuong_display_nuongthit bepnuong.global run execute at @s as @e[type=minecraft:item_display] run execute if score @s bepnuong.global = #bepnuong_display_nuongthit bepnuong.global run data merge entity @s {item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["bepnuong_macdinh"]}}}}

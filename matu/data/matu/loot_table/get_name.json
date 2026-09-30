@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": ["",{"selector":"@s","bold":true,"color":"red","italic":false}," ",{"text":"Tâm Ma","bold":true,"color":"red","italic":false}]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

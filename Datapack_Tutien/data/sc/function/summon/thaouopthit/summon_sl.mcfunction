@@ -1,0 +1,23 @@
+execute if entity @s[tag=10] run summon item_display ~ ~0.5 ~ {Tags:["thaouopthit_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thao_thituop_10"]}}}}
+execute if entity @s[tag=9] run summon item_display ~ ~0.5 ~ {Tags:["thaouopthit_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thao_thituop_9"]}}}}
+execute if entity @s[tag=8] run summon item_display ~ ~0.5 ~ {Tags:["thaouopthit_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thao_thituop_8"]}}}}
+execute if entity @s[tag=7] run summon item_display ~ ~0.5 ~ {Tags:["thaouopthit_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thao_thituop_7"]}}}}
+execute if entity @s[tag=6] run summon item_display ~ ~0.5 ~ {Tags:["thaouopthit_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thao_thituop_6"]}}}}
+execute if entity @s[tag=5] run summon item_display ~ ~0.5 ~ {Tags:["thaouopthit_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thao_thituop_5"]}}}}
+execute if entity @s[tag=4] run summon item_display ~ ~0.5 ~ {Tags:["thaouopthit_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thao_thituop_4"]}}}}
+execute if entity @s[tag=3] run summon item_display ~ ~0.5 ~ {Tags:["thaouopthit_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thao_thituop_3"]}}}}
+execute if entity @s[tag=2] run summon item_display ~ ~0.5 ~ {Tags:["thaouopthit_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thao_thituop_2"]}}}}
+execute if entity @s[tag=1] run summon item_display ~ ~0.5 ~ {Tags:["thaouopthit_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thao_thituop_1"]}}}}
+execute if entity @s[tag=0] run summon item_display ~ ~0.5 ~ {Tags:["thaouopthit_display","new"],item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_model_data":{strings:["thao_thituop_0"]}}}}
+
+execute if entity @s[tag=10] run scoreboard players set @e[tag=new,type=interaction] thaouopthit_sl 10
+execute if entity @s[tag=9] run scoreboard players set @e[tag=new,type=interaction] thaouopthit_sl 9
+execute if entity @s[tag=8] run scoreboard players set @e[tag=new,type=interaction] thaouopthit_sl 8
+execute if entity @s[tag=7] run scoreboard players set @e[tag=new,type=interaction] thaouopthit_sl 7
+execute if entity @s[tag=6] run scoreboard players set @e[tag=new,type=interaction] thaouopthit_sl 6
+execute if entity @s[tag=5] run scoreboard players set @e[tag=new,type=interaction] thaouopthit_sl 5
+execute if entity @s[tag=4] run scoreboard players set @e[tag=new,type=interaction] thaouopthit_sl 4
+execute if entity @s[tag=3] run scoreboard players set @e[tag=new,type=interaction] thaouopthit_sl 3
+execute if entity @s[tag=2] run scoreboard players set @e[tag=new,type=interaction] thaouopthit_sl 2
+execute if entity @s[tag=1] run scoreboard players set @e[tag=new,type=interaction] thaouopthit_sl 1
+execute if entity @s[tag=0] run scoreboard players set @e[tag=new,type=interaction] thaouopthit_sl 0

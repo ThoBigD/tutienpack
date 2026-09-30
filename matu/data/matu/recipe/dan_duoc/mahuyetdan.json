@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:rotten_flesh"
+    ],
+    [
+      "minecraft:bone"
+    ],
+    [
+      "minecraft:fermented_spider_eye"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:paper",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "matu": {
+          "item_type": "dan_duoc",
+          "id": "ma_huyet_dan_temp"
+        }
+      },
+      "minecraft:custom_name": {
+        "text": "Ma Huyết Đan",
+        "color": "dark_red",
+        "bold": true,
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Chứa đựng oán khí và huyết dịch nồng đậm.",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Ăn vào: Phàm Nhân trực tiếp Nhập Ma.",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": "Yêu cầu: cần đạt 100 ma khí trước khi sử dụng, hoặc không thì ....",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ],
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0.0,
+        "can_always_eat": true
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

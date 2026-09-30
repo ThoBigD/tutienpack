@@ -1,0 +1,9 @@
+execute if score #cut_take tamthot_item matches 1 run give @s minecraft:carrot[custom_name=[{"text":"Lát Dưa Leo","italic":false}],minecraft:custom_data={food:latdualeo},minecraft:custom_model_data={strings:['lat_dualeo']}] 3
+execute if score #cut_take tamthot_item matches 2 run give @s minecraft:carrot[custom_name=[{"text":"Lát Cà Chua","italic":false}],minecraft:custom_data={food:latcachua},minecraft:custom_model_data={strings:['lat_cachua']}] 3
+execute if score #cut_take tamthot_item matches 3 run give @s minecraft:carrot[custom_name=[{"text":"Thịt Cắt Lát","italic":false}],minecraft:custom_data={food:thit},minecraft:custom_model_data={strings:['thit']}] 10
+execute if score #cut_take tamthot_item matches 4 run give @s minecraft:carrot[custom_name=[{"text":"Gừng Cắt lát","italic":false}],minecraft:custom_data={food:gung},minecraft:custom_model_data={strings:['lat_gung']}] 5
+execute if score #cut_take tamthot_item matches 6 run give @s minecraft:carrot[custom_name=[{"text":"Sả Bầm","italic":false}],minecraft:custom_data={food:sa},minecraft:custom_model_data={strings:['sabam']}] 1
+execute if score #cut_take tamthot_item matches 7 run give @s minecraft:carrot[custom_name=[{"text":"Tỏi Bầm","italic":false}],minecraft:custom_data={food:toi},minecraft:custom_model_data={strings:['toibam']}] 1
+execute if score #cut_take tamthot_item matches 8 run give @s minecraft:carrot[custom_name=[{"text":"Hành Tím Bầm","italic":false}],minecraft:custom_data={food:hanhtim},minecraft:custom_model_data={strings:['hanhtimbam']}] 1
+execute as @a[distance=..15] at @s run playsound minecraft:entity.player.attack.sweep
+particle block{block_state:{Name:stripped_birch_wood}} ~ ~ ~ 0 0 0 0 10 

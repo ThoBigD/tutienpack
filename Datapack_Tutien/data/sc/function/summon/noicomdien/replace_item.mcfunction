@@ -1,0 +1,2 @@
+give @s minecraft:zombie_spawn_egg[entity_data={id:"minecraft:armor_stand",Tags:["comsuong_new"]},minecraft:custom_model_data={strings:['dia_com']},custom_name=[{"text":"Dĩa Cơm","italic":false}]] 1
+clear @s minecraft:coal[minecraft:custom_data={dia:1b},minecraft:custom_model_data={strings:['dia']}] 1

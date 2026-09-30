@@ -1,0 +1,1 @@
+scoreboard objectives add MaTu_RightClick dummy
