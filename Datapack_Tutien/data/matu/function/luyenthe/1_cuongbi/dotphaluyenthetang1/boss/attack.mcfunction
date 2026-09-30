@@ -65,6 +65,7 @@ execute as @e[tag=TamMa_1] if score @s MaTu_Boss_Target matches 1 run scoreboard
 execute as @e[tag=TamMa_1] if score @s MaTu_Normal_Attack_Boss matches 15.. at @s if entity @a[tag=Nguoi_Dot_Pha_Tam,distance=..2] run data modify entity @s equipment.mainhand.count set value 1b
 execute as @e[tag=TamMa_1] if score @s MaTu_Normal_Attack_Boss matches 15.. at @s if entity @a[tag=Nguoi_Dot_Pha_Tam,distance=..2] run damage @a[tag=Nguoi_Dot_Pha_Tam,distance=..2,limit=1] 12 minecraft:mob_attack by @s
 execute as @e[tag=TamMa_1] if score @s MaTu_Normal_Attack_Boss matches 15.. at @s if entity @a[tag=Nguoi_Dot_Pha_Tam,distance=..2] positioned ~ ~1 ~ run particle sweep_attack ^ ^ ^2
+execute as @e[tag=TamMa_1] if score @s MaTu_Normal_Attack_Boss matches 15.. at @s if entity @a[tag=Nguoi_Dot_Pha_Tam,distance=..2] run swing
 execute as @e[tag=TamMa_1] if score @s MaTu_Normal_Attack_Boss matches 15.. at @s if entity @a[tag=Nguoi_Dot_Pha_Tam,distance=..2] run playsound minecraft:entity.player.attack.sweep hostile @a ~ ~ ~ 1 0.8
 
 execute as @e[tag=TamMa_1] if score @s MaTu_Normal_Attack_Boss matches 16 run data modify entity @s equipment.mainhand.count set value 1
