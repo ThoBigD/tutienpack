@@ -1,10 +1,10 @@
 ### Luyện Thể
 function matu:luyenthe/load
-## Cường Bi
+## Cương Bi
 function matu:luyenthe/1_cuongbi/load
-## Luyện Nhục
+## Dịch Cân
 function matu:luyenthe/2_dichcan/load
-## Đoán Cốt
+## Đoạn Cốt
 function matu:luyenthe/3_doancot/load
 execute as @a at @s run playsound ui.button.click master @a
 
@@ -15,7 +15,9 @@ scoreboard objectives add MaTu_Deaths deathCount
 function matu:item/load
 
 ### Mobs Spawn
-function matu:mobs/monster/zombie/spawn/load
+# function matu:mobs/monster/zombie/spawn/load
 
 ### HP Display
 function matu:system/hp_display/load
+
+scoreboard objectives add matu_zombie_random dummy
