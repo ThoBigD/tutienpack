@@ -1,3 +1,4 @@
+
 # tiêu diệt
 scoreboard objectives add MaTu_mob_kill custom:mob_kills "Ma Tu: Diệt Mobs"
 scoreboard objectives add MaTu_player_kill custom:player_kills "Ma Tu: Diệt Players"
@@ -12,8 +13,9 @@ scoreboard objectives add MaTu_count_block dummy "Ma Tu: Đếm block"
 
 # ma khí
 scoreboard objectives add MaTu_MaKhi dummy "Ma Tu: Ma Khí"
+scoreboard objectives add MaTu_MaKhi_Timer dummy "Ma Tu: Ma Khí Timer"
 
-# Phản phệ ma khí
+# Phân phế ma khí
 function matu:luyenthe/1_cuongbi/phanphe/load
 
 # Đột phá tầng 1
@@ -25,3 +27,4 @@ scoreboard objectives add MaTu_Battle dummy
 # Cooldown Actionbar Display
 scoreboard objectives add MaTu_Ngukiem_Sec dummy "Ma Tu: Ngu Kiem Cooldown (Sec)"
 scoreboard objectives add MaTu_BocPha_Sec dummy "Ma Tu: Boc Pha Cooldown (Sec)"
+
