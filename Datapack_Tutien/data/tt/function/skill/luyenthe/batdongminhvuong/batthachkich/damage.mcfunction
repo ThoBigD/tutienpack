@@ -20,7 +20,7 @@ execute rotated ~315 0 run particle minecraft:explosion ^2 ^ ^ 0 0 0 0 1
 execute rotated ~337.5 0 run particle minecraft:explosion ^2 ^ ^ 0 0 0 0 1
 playsound minecraft:entity.generic.explode master @a[distance=..15] ~ ~ ~ 1 1.2
 
-
+execute as @a[distance=..6,tag=!this] at @s run execute as @a[tag=this] at @s run playsound minecraft:entity.arrow.hit_player master @s
 execute as @a[distance=..6,tag=!this] at @s run damage @s 15 minecraft:player_attack by @p[tag=this]
 execute as @e[distance=..6,type=!#tt:entitycam] at @s run damage @s 20 minecraft:player_attack by @p[tag=this]
 function tt:skill/luyenthe/batdongminhvuong/batthachkich/fill_on

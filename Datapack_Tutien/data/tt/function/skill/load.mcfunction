@@ -9,6 +9,8 @@ scoreboard objectives add phanchan_onhit minecraft.custom:minecraft.damage_taken
 scoreboard objectives add phanchan_tinh_st dummy
 scoreboard players set #phanchan_hangso5 phanchan_tinh_st 2
 #batthachkich
+scoreboard objectives add temp dummy
+scoreboard objectives add batthachkich_random dummy
 scoreboard objectives add batthachkich_shift minecraft.custom:minecraft.sneak_time
 scoreboard objectives add batthachkich_jump minecraft.custom:minecraft.jump
 scoreboard objectives add batthachkich_phase dummy
