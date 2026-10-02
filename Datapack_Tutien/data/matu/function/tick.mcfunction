@@ -14,7 +14,7 @@ function matu:mobs/monster/tick
 function matu:mobs/monster/zombie/mobs/default
 
 ### Tick của HP Display
-function matu:system/hp_display/tick
+# function matu:system/hp_display/tick
 
 ### Tick Item
 function matu:item/tick
