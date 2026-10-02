@@ -18,6 +18,6 @@ function matu:item/load
 # function matu:mobs/monster/zombie/spawn/load
 
 ### HP Display
-function matu:system/hp_display/load
+# function matu:system/hp_display/load
 
 scoreboard objectives add matu_zombie_random dummy
