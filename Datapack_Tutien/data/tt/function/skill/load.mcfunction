@@ -22,4 +22,5 @@ scoreboard objectives add batthachkich_fly dummy
 scoreboard objectives add batthachkich_counting dummy
 #sonnhactrongkich
 scoreboard objectives add sonnhactrongkich_on dummy
-scoreboard objectives add sonnhactrongkich minecraft.custom:minecraft.fall_one_cm
+scoreboard objectives add ca_dapchan dummy
+scoreboard objectives add ca_throw dummy
