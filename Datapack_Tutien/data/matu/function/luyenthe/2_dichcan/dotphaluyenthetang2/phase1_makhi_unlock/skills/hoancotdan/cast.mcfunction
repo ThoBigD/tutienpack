@@ -29,4 +29,9 @@ execute if score #absorb_lvl matu_math matches ..-1 run scoreboard players set #
 execute store result storage matu:bocpha hp_loss int 1 run scoreboard players get #hp_loss matu_math
 execute store result storage matu:bocpha absorb_lvl int 1 run scoreboard players get #absorb_lvl matu_math
 
+# 6 giây dmg
+tag @s add cast
+execute as @e[tag=!cast] at @s run damage @s 30 explosion by @n[tag=cast,limit=1]
+tag @s remove cast
+
 function matu:luyenthe/2_dichcan/dotphaluyenthetang2/phase1_makhi_unlock/skills/hoancotdan/apply with storage matu:bocpha
