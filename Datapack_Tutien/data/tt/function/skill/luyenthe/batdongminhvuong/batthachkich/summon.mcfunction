@@ -1,4 +1,9 @@
-$summon item_display ~ ~2.5 ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},Tags:["batthachkich","new"],item:{id:"$(block_id)",count:1}}
+
+$execute if score @s status_luyenthe matches 1 run summon item_display ~ ~2.5 ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},Tags:["batthachkich","new","lt1"],item:{id:"$(block_id)",count:1}}
+
+$execute if score @s status_luyenthe matches 2 run summon item_display ~ ~2.5 ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},Tags:["batthachkich","new","lt2"],item:{id:"$(block_id)",count:1}}
+
+$execute if score @s status_luyenthe matches 3 run summon item_display ~ ~2.5 ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},Tags:["batthachkich","new","lt3"],item:{id:"$(block_id)",count:1}}
 
 scoreboard players add #global batthachkich_id 1
 scoreboard players operation @s batthachkich_id = #global batthachkich_id

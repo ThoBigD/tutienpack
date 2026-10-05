@@ -15,7 +15,9 @@ particle falling_dust{block_state:{Name:"dirt"}} ~ ~2.5 ~ 2.5 0.5 2.5 0.01 50
 playsound entity.generic.explode master @a ~ ~ ~ 1.5 0.5
 playsound block.anvil.land master @a ~ ~ ~ 1.5 0.4
 playsound entity.warden.attack_impact master @a ~ ~ ~ 1.2 0.7
-execute as @e[distance=..6,tag=!this] at @s run damage @s 30 minecraft:player_attack by @p[tag=this]
+execute if score @s status_luyenthe matches 1 run execute as @e[distance=..6,tag=!this] at @s run damage @s 20 minecraft:player_attack by @p[tag=this]
+execute if score @s status_luyenthe matches 2 run execute as @e[distance=..6,tag=!this] at @s run damage @s 40 minecraft:player_attack by @p[tag=this]
+execute if score @s status_luyenthe matches 3 run execute as @e[distance=..6,tag=!this] at @s run damage @s 60 minecraft:player_attack by @p[tag=this]
 tag @s remove this
 kill @e[tag=exp_point]
 kill @e[tag=exp_center]
