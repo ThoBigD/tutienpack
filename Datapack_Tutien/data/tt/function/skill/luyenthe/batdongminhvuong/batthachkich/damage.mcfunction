@@ -21,8 +21,12 @@ execute rotated ~337.5 0 run particle minecraft:explosion ^2 ^ ^ 0 0 0 0 1
 playsound minecraft:entity.generic.explode master @a[distance=..15] ~ ~ ~ 1 1.2
 
 execute as @a[distance=..6,tag=!this] at @s run execute as @a[tag=this] at @s run playsound minecraft:entity.arrow.hit_player master @s
-execute as @a[distance=..6,tag=!this] at @s run damage @s 15 minecraft:player_attack by @p[tag=this]
-execute as @e[distance=..6,type=!#tt:entitycam] at @s run damage @s 20 minecraft:player_attack by @p[tag=this]
+execute if entity @s[tag=lt1] run execute as @a[distance=..6,tag=!this] at @s run damage @s 8 minecraft:player_attack by @p[tag=this]
+execute if entity @s[tag=lt2] run execute as @a[distance=..6,tag=!this] at @s run damage @s 16 minecraft:player_attack by @p[tag=this]
+execute if entity @s[tag=lt3] run execute as @a[distance=..6,tag=!this] at @s run damage @s 32 minecraft:player_attack by @p[tag=this]
+execute if entity @s[tag=lt1] run execute as @e[distance=..6,type=!#tt:entitycam] at @s run damage @s 20 minecraft:player_attack by @p[tag=this]
+execute if entity @s[tag=lt2] run execute as @e[distance=..6,type=!#tt:entitycam] at @s run damage @s 40 minecraft:player_attack by @p[tag=this]
+execute if entity @s[tag=lt3] run execute as @e[distance=..6,type=!#tt:entitycam] at @s run damage @s 60 minecraft:player_attack by @p[tag=this]
 function tt:skill/luyenthe/batdongminhvuong/batthachkich/fill_on
 execute at @s as @a if score #btk_id batthachkich_id = @s batthachkich_id run tag @s remove this
 scoreboard players reset #btk_id batthachkich_id
